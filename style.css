@@ -1,0 +1,40 @@
+body {
+    background-color:lemonchiffon;
+}
+h1{
+    margin: 0 0 50px 0;
+    color : tomato;
+    text-align:center   
+}
+h2{
+    margin : 0 0 20px 0;
+    color : grey;
+    text-align : center;
+    border : 3px;
+}
+p{
+    text-align:justify;
+    font-family:'Trebuchet MS';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+b{
+    font-size :200%;
+}
+u{
+    color:indigo;
+}
+i{
+    color :DodgerBlue;
+}
+table {
+    border-collapse: collapse;
+    width: 75%;
+  }
+
+  li{
+    display :inline;
+  }
