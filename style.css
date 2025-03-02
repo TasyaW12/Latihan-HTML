@@ -1,40 +1,171 @@
+
 body {
-    background-color:lemonchiffon;
-}
-h1{
-    margin: 0 0 50px 0;
-    color : tomato;
-    text-align:center   
-}
-h2{
-    margin : 0 0 20px 0;
-    color : grey;
-    text-align : center;
-    border : 3px;
-}
-p{
-    text-align:justify;
-    font-family:'Trebuchet MS';
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 20px;
+    font-family: sans-serif;
 }
 
-b{
-    font-size :200%;
+/* Background Khusus Per Halaman  */
+
+body.halamanaction {
+    background-color: rgb(163, 233, 233);
+    margin: 20px;
 }
-u{
-    color:indigo;
+body.halamanromance {
+    background-color: rgb(246, 151, 246);
+    margin: 20px;
 }
-i{
-    color :DodgerBlue;
+body.halamanthrilet {
+    background-color: rgb(235, 94, 94);
+    margin: 20px;
 }
+body.halamankerajaan{
+    background-color: rgb(154, 226, 190);
+    margin: 20px;
+}
+body.halamanpenutup {
+    background-color: rgb(170, 170, 247);
+    margin: 20px;
+}
+
+
+h1, h2, h3 {
+    margin: 10px 0;
+    text-align: center; 
+}
+
+p, dd {
+    text-align: justify;
+}
+
+p u {
+    color: indigo;
+}
+
+p i {
+    color: DodgerBlue;
+}
+
+
+h1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+img.featured {
+    height: 450px;
+}
+
+
+.index h2 {
+    text-align: center;
+}
+.index h2.next {
+    text-align: right
+}
+
+.index h2 b {
+    font-size: 150%;
+    color: maroon;
+}
+
+.index h1.story-title {
+    color: Tomato;
+    text-align: center;
+}
+
+
+.index ul.nav-list {
+    border: 3px solid gray;
+    background-color: wheat;
+    list-style-type: none;
+    margin :0;
+    padding: 10px;
+    display: flex;
+    gap: 1rem; 
+    justify-content: center; 
+    align-items: center;
+   
+}
+
+.index ul.nav-list li {
+    margin-bottom: 5px;
+    
+}
+.index ul.nav-list li a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+ol.action-list {
+    border: 3px solid black;
+    background-color: rgb(222, 88, 5);
+    padding: 20px;
+}
+
+ul.romance-list {
+    border: 3px solid black;
+    background-color: rgb(246, 75, 166);
+    padding: 20px;
+}
+
+ol.thriller-list {
+    border: 3px solid black;
+    background-color: rgba(244, 14, 68, 0.9);
+    padding: 20px;
+}
+
+ul.kerajaan-list {
+    border: 3px solid black;
+    background-color: rgb(160, 68, 245);
+    padding: 20px;
+}
+
+
+
+#pengantar,
+#list,
+#sinopsis {
+    border: 3px solid gray;
+    color: navy;
+    padding: 5px;
+}
+
+/* ===== Table Sinopsis ===== */
 table {
+    border: 3px solid black;
     border-collapse: collapse;
-    width: 75%;
-  }
+    width: 100%;
+}
 
-  li{
-    display :inline;
-  }
+td {
+    border: 3px solid black;
+    padding: 5px;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    border: none;
+}
+
+
+dl dt b {
+    font-size: 150%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    font-size:larger
+    
+}
+
+
+footer a {
+    text-decoration: none;
+    color: blue;
+}

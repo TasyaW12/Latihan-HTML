@@ -2,42 +2,43 @@
 <html>
     <head>
         <title>Latihan HTML Dasar</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body class="index">
         <h2 style = " text-align : center"><b style = "font-size:150%;color :maroon; "> Daftar Konten</b> </h2>
-        <ul style = "border : 3px solid gray; background-color:wheat;">
-            <li><a href ="#pengantar">Pengantar </a></li><br>
-            <li><a href = "#list">List Drama </a></li><br>
-            <li><a href = "#action">Action Drama</a></li><br>
-            <li><a href = "#komedi romance">Komedi Romance Drama</a></li><br>
-            <li><a href = "#thriler">Thriler Drama</a></li><br>
-            <li><a href = "#kerajaan">Kerajaan Drama</a></li><br>
-            <li><a href = "#sinopsis">Sinopsi TOP 3 Drama</a></li><br>
-            <li><a href = "#rekomendasi">Rekomendasi Selanjutnya</a></li><br>
+        <ul class = nav-list>
+            <li><a href ="#pengantar">Pengantar </a></li>
+            <li><a href = "#list">List Drama </a></li>
+            <li><a href = "#action">Action Drama</a></li>
+            <li><a href = "#komedi romance">Komedi Romance Drama</a></li>
+            <li><a href = "#thriler">Thriler Drama</a></li>
+            <li><a href = "#kerajaan">Kerajaan Drama</a></li>
+            <li><a href = "#sinopsis">Sinopsi TOP 3 Drama</a></li>
+            <li><a href = "#rekomendasi">Rekomendasi Selanjutnya</a></li>
 
         </ul>
-        <h1 style ="color :Tomato; text-align : center" >Story About Me</h1>
-        <h1 style = "text-align : center"><img src = "Foto.jpg" width ="300" height = "300 "> </h1>
+        <h1 class="story-title" >Story About Me</h1>
+        <h1 style =><img src = "Foto.jpg" width ="300" height = "300 "> </h1>
         <br><br><br><br><br><br>
-        <h2 id="pengantar" style = "border : 3px solid gray; text-align : center; color :navy" >Pengantar</h2>
+        <h2 id="pengantar"  >Pengantar</h2>
         <p style = "text-align : justify"><b style = "font-size :200%">Hii Saya Tasya</b> Sekarang adalah 
             mahasiswa di Universitas Sanata Dharma Yogyakarta semester 4. Dari SMA mau masuk kedokteran 
         malah beralih ke informatika entah ini disebut berkah atau kutukan tapi tiba tiba sudah semester 4 hihi &#128513; </p>
 
-        <p style="text-align : justify"> Sebenarnya tulisan ini dibuat untuk memenuhi <u style = "color:indigo">tugas dari mata kuliah 
+        <p > Sebenarnya tulisan ini dibuat untuk memenuhi <u style = "color:indigo">tugas dari mata kuliah 
             pemrograman berbasis platform</u> tentang belajar html. Jadi tugasnya meminta untuk menceritakan tentang diri saya.
             Maka dari itu yang terpintas dipikiran saya adalah menceritakan tentang hobi saya yaitu menonton
             <i style = "color :DodgerBlue;" > Korean Drama. </i> Mungkin bagi sebagian orang itu hobi yang membosankan
         tapi percaya dehh sekalinya udah nonton bakal terus nonton deh percaya deh hehe....</p>
         
-        <p style = "text-align : justify">Jadi karena saya sudah menonton Drama Korea dari SMP kelas satu sampai sekarang saya
+        <p>Jadi karena saya sudah menonton Drama Korea dari SMP kelas satu sampai sekarang saya
             akan memberikan list drama yang sudah saya nonton dan masih saya ingat dan dibedakan berdasarkan kategori dan mungkin 
             akan memberikan sinopsis 3 peringkat teratas dari drama yang sudah saya nonton dan sebagai rekomendasi buat kalian.   
         </p>
        
-        <h2 id ="list" style = "border : 3px solid gray; text-align : center;color:navy">List Drama Korea</h2>
+        <h2 id ="list" >List Drama Korea</h2>
         <h3 id ="action">Action</h3>
-        <ol style = "border : 3px solid black; background-color:rgb(222, 88, 5);">
+        <ol class ="action-list">
             <li><b>Bad and Crazy </li>
             <li>Vincenzo </li>
             <li>Taxi Driver</li>
@@ -51,7 +52,7 @@
             
         </ol>
         <h3 id="komedi romance">Komedi Romance</h3>
-        <ul style ="border : 3px solid black; background-color:rgb(246, 75, 166)">
+        <ul class="romance-list">
             <li><b>Dali and Coky Prince </li>
             <li>Hospital Playlist</li>
             <li>Start Up </li>
@@ -70,7 +71,7 @@
         </ul>
 
         <h3 id="thriler">Thriler</h3>
-        <ol style ="border : 3px solid black; background-color:rgba(244, 14, 68, 0.9)">
+        <ol class="thriller-list">
             <li><b>Sweet Homo 1&2</li>
             <li>Weak Hero Class</li>
             <li>Pyramid Game</li>
@@ -79,7 +80,7 @@
             
         </ol>
         <h3 id ="kerajaan">Kerajaan</h3>
-        <ul style = "border : 3px solid black; background-color:rgb(160, 68, 245)">
+        <ul class="kerajaan-list">
             <li><b>Mr Queen</li>
             <li>100 Day My Prince</li>
             <li>The Tale of Nokdu</li>
@@ -96,7 +97,7 @@
 
             
         </ul>
-        <h2 id="sinopsis"style = "border : 3px solid gray; text-align : center; color : navy">Sinopsis Top 3 Drama Korea</h2>
+        <h2 id="sinopsis">Sinopsis Top 3 Drama Korea</h2>
         <table border ="3px" cellspacing = "0" cellpadding = "5" >
            <tr>
             <td>Drama</td>
@@ -131,13 +132,16 @@
              
         </table>
         <br><br><br><br><br>
-        <hr style="height: 3px; background-color: black; border: none;">
+        <hr>
        <p id = "rekomendasi">Nah, setelah melihat drama drama yang sudah saya sebutkan berdasarkan genre mungkin saya akan lebih
         memberikan beberapa rekomendasi drama berdasarkan genre di halaman selanjutnya. Tentunya drama ini memiliki
         rating yang tinggi selama penayangannya dan alur cerita yang menarik dan benar benar keren pokoknya...
         <strong>JADI TEMAN TEMAN BISA TEKAN NEXT YAA UNTUK LIAT REKOMENDASI LAINNYA<strong></strong>
        </p>
-        <h2 style ="text-align:right;"><a  href = "halamanaction.html" target = "_blank">Next</a></h2>
+       <div class="nav-links">
+        <span class="prev"></span>
+        <a href="halamanaction.html" class="next"target = "_blank">Next</a>
+    </div>
     </body>
     
 </html>
